@@ -11,7 +11,6 @@
 - [Project Structure](#project-structure)
 - [API Documentation](#api-documentation)
 - [Performance Optimizations](#performance-optimizations)
-- [Testing](#testing)
 - [Contributing](#contributing)
 - [Roadmap](#roadmap)
 - [License](#license)
@@ -159,7 +158,6 @@ matuleme/
 ├── settings.gradle.kts       # Project settings
 └── README.md                 # This file
 ```
-*(Adjust the project structure above if it slightly differs from your actual layout)*
 
 ## API Documentation
 
@@ -170,10 +168,6 @@ The application interacts with your Supabase project's API endpoints for Auth, D
 - Image loading and caching (likely using Coil based on common practice in Compose projects).
 - Efficient UI rendering with Jetpack Compose.
 - Asynchronous data operations with Coroutines and Flow.
-
-## Testing
-
-*(Details on testing strategy - e.g., Unit, Integration, UI tests - can be added here if you have implemented them)*
 
 ## Contributing
 
@@ -188,16 +182,10 @@ Please adhere to the project's coding style and guidelines.
 
 ## Roadmap
 
-*(List planned future features or improvements here)*
-
 - Social authentication integration
 - Push notifications
 - Further UI/UX enhancements
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details. *(Ensure you have a LICENSE file in your repository)*
-
-## Contact
-
-If you have any questions or feedback, feel free to open an issue in the repository or contact [Ваше имя/email]. 
+This project is licensed under the MIT License - see the LICENSE file for details.

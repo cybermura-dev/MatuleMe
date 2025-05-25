@@ -1,0 +1,299 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">MatuleMe</string>
+
+    <!-- Errors: General -->
+    <string name="unknown_error_occurred">An unknown error has occurred</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_network">Network issue. Check your connection</string>
+    <string name="error_timeout">Request timed out. Please try again</string>
+    <string name="error_encoding">Data processing error</string>
+
+    <!-- Errors: Server -->
+    <string name="error_bad_request">Bad request</string>
+    <string name="error_unauthorized">Unauthorized</string>
+    <string name="error_not_found">Not found</string>
+    <string name="error_unknown_rest">Unknown server error</string>
+    <string name="error_rest_generic">Server error</string>
+
+    <!-- Errors: Validation -->
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_email_invalid_format">Invalid email format</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_password_too_short">Password must be at least %d characters long</string>
+    <string name="error_password_too_long">Password cannot exceed %d characters</string>
+    <string name="error_password_weak">Password is too weak. It must contain at least %d types of characters (uppercase, lowercase, digit, special)</string>
+    <string name="error_repeat_password_verify">Passwords do not match</string>
+    <string name="error_policy_check">You must accept the privacy policy</string>
+
+    <!-- Errors: OTP -->
+    <string name="error_otp_code_blank">OTP token cannot be empty</string>
+    <string name="error_otp_code_too_long">OTP token must be 6 digits</string>
+    <string name="error_otp_code_invalid_format">OTP token invalid format</string>
+
+    <!-- Errors: Set new password -->
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+    <string name="error_password_reset_failed">Password reset failed</string>
+
+    <!-- Errors: Payment -->
+    <string name="error_invalid_payment_id">Invalid payment method ID</string>
+    <string name="error_payment_card_number_empty">Card number cannot be empty</string>
+    <string name="error_payment_card_holder_empty">Cardholder name cannot be empty</string>
+    <string name="error_payment_expiration_date_empty">Expiration date cannot be empty</string>
+    <string name="error_invalid_payment_details">Invalid payment details</string>
+    <string name="error_invalid_price">Invalid price</string>
+
+    <!-- Errors: Order -->
+    <string name="error_invalid_order_id">Invalid order ID</string>
+    <string name="error_invalid_order_item_id">Invalid order item ID</string>
+    <string name="error_delivery_address_empty">Delivery address cannot be empty</string>
+    <string name="error_invalid_address_id">Invalid address ID</string>
+
+    <!-- Errors: Data -->
+    <string name="error_invalid_user_id">User not found or invalid ID</string>
+    <string name="error_invalid_item_id">Item not found or invalid ID</string>
+    <string name="error_invalid_category_id">Category not found or invalid ID</string>
+    <string name="error_invalid_product_id">Product not found or invalid ID</string>
+    <string name="error_invalid_input">Invalid entry. Please check the data</string>
+    <string name="error_invalid_quantity">Incorrect quantity</string>
+    <string name="error_loading_product">Product is not loaded</string>
+    <string name="product_not_available">Product not available</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="login_greeting">Hello!</string>
+    <string name="login_prompt">Fill your details</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account_prompt">No account?</string>
+
+    <string name="register">Register</string>
+    <string name="register_greeting">Register</string>
+    <string name="register_prompt">Fill your details</string>
+
+    <!-- Reset Password & OTP -->
+    <string name="forgot_password_greeting">Reset password</string>
+    <string name="forgot_password_prompt">Enter your email to receive the code in your email</string>
+    <string name="send_code">Send code</string>
+    <string name="reset_password">Reset password</string>
+    <string name="reset_password_greeting">Confirm Password Reset</string>
+    <string name="reset_password_prompt">Enter the code sent to %s</string>
+    <string name="otp_verification_greeting">Verify OTP</string>
+    <string name="otp_verification_prompt">Enter the code sent to %s</string>
+    <string name="input_otp">OTP Code</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend Code</string>
+    <string name="resend_otp_timer">%02d:%02d</string>
+    <string name="save_new_password">Сохранить новый пароль</string>
+    <string name="password_reset_success">Пароль был успешно сброшен</string>
+    <string name="write_new_password_title">Придумайте новый пароль</string>
+    <string name="write_new_password_prompt">Пожалуйста, заполните в поля ниже придуманный пароль</string>
+
+    <!-- Inputs -->
+    <string name="input_email">Email</string>
+    <string name="input_password">Password</string>
+    <string name="input_repeat_password">Repeat password</string>
+    <string name="policy_text">I agree to the processing of personal data</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_address_title">Addresses</string>
+    <string name="profile_address_count">addresses</string>
+    <string name="profile_no_addresses">No address available</string>
+    <string name="profile_favorites_title">Favorites</string>
+    <string name="profile_favorites_count">favorites</string>
+    <string name="profile_no_favorites">No favorites yet</string>
+    <string name="profile_payments_title">Payments</string>
+    <string name="profile_payments_count">methods</string>
+    <string name="profile_no_payments">No payment methods added</string>
+    <string name="profile_orders_title">Orders</string>
+    <string name="profile_no_orders">No orders placed</string>
+    <string name="profile_logout">Log Out</string>
+    <string name="profile_placeholder_name">User</string>
+
+    <string name="profile_next_delivery_title">Next Delivery</string>
+    <string name="profile_no_upcoming_deliveries">No upcoming deliveries</string>
+    <string name="profile_create_first_order_prompt">Create first order</string>
+    <string name="profile_delivery_order_number">Order No. %s</string>
+    <string name="profile_delivery_status">Status: %s</string>
+    <string name="profile_delivery_date">Created: %s</string>
+    <string name="profile_order_total_price">Total price: %s</string>
+    <string name="profile_address_primary">Default: %s</string>
+    <string name="profile_payment_primary_card">Default: ****%s</string>
+    <string name="profile_no_info_available">No info available</string>
+    <string name="profile_about_app">About app</string>
+
+    <!-- Catalog & Search -->
+    <string name="categories_title">Categories</string>
+    <string name="category_results_title">Result</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_search_results_title">Oops!</string>
+    <string name="empty_search_results_message">We did not find any products for the query «%1$s».\nTry changing the search terms.</string>
+    <string name="empty_category_results_title">Oops!</string>
+    <string name="empty_category_results_message">We did not find any products for the category.\nTry changing the category.</string>
+
+    <!-- Cart -->
+    <string name="cart_title">Cart</string>
+    <string name="empty_cart">Cart is empty</string>
+    <string name="remove_cart_item">Remove</string>
+    <string name="cart_total">Total: </string>
+    <string name="total_price">Total price</string>
+    <string name="proceed_to_checkout">Checkout</string>
+    <string name="error_min_quantity_reached">Minimum quantity — 1</string>
+    <string name="error_max_quantity_reached">Maximum quantity — 100</string>
+    <string name="add_some_products">Add some products to get started</string>
+
+    <!-- Reviews -->
+    <string name="reviews_title">Reviews</string>
+    <string name="no_reviews_yet">No reviews yet.</string>
+    <string name="no_reviews_for_filter">No reviews for this rating.</string>
+    <string name="view_reviews">View reviews</string>
+    <string name="rating_format">Rating: %.1f out of 5</string>
+    <string name="no_ratings">No ratings</string>
+    <string name="all">All</string>
+
+    <!-- Promotions -->
+    <string name="promotion">Promotion!</string>
+    <string name="buy_now">Buy now</string>
+    <string name="add_in_cart">Add in cart</string>
+    <string name="added_to_cart">In cart</string>
+    <string name="description">Description</string>
+    <string name="loading_product">Loading the product…</string>
+    <string name="price">Price</string>
+
+    <!-- Navigation -->
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get started</string>
+
+    <!-- Onboarding -->
+    <string name="welcome_greeting">Welcome</string>
+    <string name="welcome_prompt">in the online store Matule Me!</string>
+    <string name="journey_greeting">Let\'s start the journey</string>
+    <string name="journey_prompt">A smart, gorgeous and fashionable collection is waiting for you here!</string>
+    <string name="stand_out_greeting">Stand out from the crowd</string>
+    <string name="stand_out_prompt">Every pair of sneakers is a way to express yourself. Find your perfect style now!</string>
+    <string name="lets_begin">Let\'s begin</string>
+    <string name="your_journey_starts_now">Your journey starts now!</string>
+
+    <!-- Delivery Addresses -->
+    <string name="delivery_addresses">Your addresses</string>
+    <string name="empty_addresses_title">No addresses yet</string>
+    <string name="empty_addresses_message">You have not added any delivery addresses. Click + to add one.</string>
+    <string name="address_line">Address</string>
+    <string name="error_address_required">Address cannot be empty</string>
+    <string name="address_label_optional">Label (optional)</string>
+    <string name="make_default_address">Make default address</string>
+    <string name="add_address_title">Add address</string>
+    <string name="update_address_title">Update address</string>
+    <string name="default_address">Default address</string>
+    <string name="set_as_default">Set as default</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+
+    <!-- Payment Methods -->
+    <string name="payment_methods">Payment methods</string>
+    <string name="empty_payments_title">No payments yet</string>
+    <string name="empty_payments_message">You have not added any payment methods. Click + to add one.</string>
+    <string name="default_payment">Default payment</string>
+    <string name="expiration_date_format">Expiration date: %s</string>
+    <string name="add_payment_method_title">Add payment method</string>
+    <string name="update_payment_method_title">Update payment method</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="error_expiration_date_required">Expiration date is required</string>
+    <string name="error_expiration_date_invalid">Invalid expiration date (MM/YY)</string>
+    <string name="error_card_number_required">Card number is required</string>
+    <string name="error_card_number_invalid">Invalid card number</string>
+    <string name="card_number">Card Number</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="make_default_payment">Make default payment method</string>
+    <string name="error_cardholder_name_required">Cardholder name is required</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist">Wishlist</string>
+    <string name="empty_wishlist">Your Wishlist is Empty</string>
+    <string name="no_products_in_wishlist">It looks like you haven\'t added any products to your wishlist yet.</string>
+    <string name="error_loading_wishlist">Failed to load wishlist. Please try again later.</string>
+
+    <!-- User Info -->
+    <string name="select_avatar">Select avatar</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="take_photo">Take photo</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="profile_edit">Edit profile</string>
+
+    <!-- Checkout -->
+    <string name="checkout">Checkout</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="cart_is_empty">Your cart is empty</string>
+    <string name="unknown_product">Unknown product</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="no_saved_addresses">You don\'t have any saved addresses</string>
+    <string name="add_address">Add Address</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="no_saved_payments">You don\'t have any saved payment methods</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="total">Total</string>
+    <string name="place_order">Place Order</string>
+    <string name="processing_order">Processing Order…</string>
+    <string name="order_placed_successfully">Order Placed Successfully!</string>
+    <string name="order_confirmation_message">Thank you for your order. You can track its status in the Orders section.</string>
+    <string name="order_summary_title">Order summary</string>
+    <string name="subtotal_original">Subtotal (original)</string>
+    <string name="total_amount_label">Total amount</string>
+    <string name="not_specified">Not specified</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="user_info">User info</string>
+    <string name="select_an_address">Select an address</string>
+    <string name="add_another_address">Add another address</string>
+    <string name="change">Change</string>
+    <string name="add_another_payment_method">Add another payment method</string>
+    <string name="select_payment_method">Select payment method</string>
+
+    <!-- Orders -->
+    <string name="orders_title">Orders</string>
+    <string name="order_status_new">New</string>
+    <string name="order_status_paid">Paid</string>
+    <string name="order_status_shipped">Shipped</string>
+    <string name="order_status_completed">Completed</string>
+    <string name="order_status_cancelled">Cancelled</string>
+    <string name="order_number_format">Order #%s</string>
+    <string name="view_details">Details</string>
+    <string name="no_orders_yet">You haven\'t placed any orders yet.</string>
+    <string name="address_label">Address:</string>
+    <string name="order_total_label">Order total</string>
+    <string name="order_status">Order status: %s</string>
+    <string name="order_items">Order items</string>
+    <string name="product_not_found">Product not found</string>
+    <string name="quantity_and_price">%d x %.2f ₽</string>
+    <string name="order_total_price">%.2f ₽</string>
+    <string name="pay">Pay</string>
+    <string name="confirm_order_received">Confirm order</string>
+    <string name="cancel_order">Cancel order</string>
+    <string name="cannot_cancel_shipped_or_completed_order">It is not possible to cancel a shipped or completed order.</string>
+    <string name="delivery_and_payment">Delivery and payment</string>
+    <string name="payment_method_label">Payment method</string>
+
+    <!-- About App -->
+    <string name="about_app_title">About App</string>
+    <string name="about_app_version_label">App Version: %s</string>
+    <string name="about_app_description_label">App Description:</string>
+    <string name="about_app_description_text">Welcome to Matule Me – your ultimate destination for stylish and comfortable sports footwear! We offer a wide selection of sneakers, trainers, and other athletic and lifestyle shoes from leading brands. Find your perfect pair, express your style, and enjoy every step with Matule Me.</string>
+    <string name="about_app_developer_label">Developer:</string>
+    <string name="about_app_developer_name">takeshikodev</string>
+
+    <!-- Misc -->
+    <string name="app_logo">App Logo</string>
+    <string name="back">Go Back</string>
+    <string name="toggle_password_visibility">Toggle Password Visibility</string>
+    <string name="just_now">just now</string>
+
+</resources>

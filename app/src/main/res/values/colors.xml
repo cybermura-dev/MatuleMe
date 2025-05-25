@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#1E88E5</color>
+    <color name="primary_light_color">#6AB7FF</color>
+    <color name="primary_dark_color">#005CB2</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#26A69A</color>
+    <color name="secondary_light_color">#64D8CB</color>
+    <color name="secondary_dark_color">#00766C</color>
+
+    <!-- Background Colors -->
+    <color name="background_color">#F8F9FA</color>
+    <color name="surface_color">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Status Colors -->
+    <color name="error_color">#F44336</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+
+    <!-- Product Item Colors -->
+    <color name="rating_color">#FFFFD700</color>
+    <color name="promotion_background_color">#FFE1F5FE</color>
+</resources>

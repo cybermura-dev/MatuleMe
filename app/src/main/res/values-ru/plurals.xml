@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="review_count">
+        <item quantity="one">%d отзыв</item>
+        <item quantity="few">%d отзыва</item>
+        <item quantity="many">%d отзывов</item>
+        <item quantity="other">%d отзывов</item>
+    </plurals>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+        <item quantity="other">%d минут назад</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+        <item quantity="other">%d часов назад</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+        <item quantity="other">%d дней назад</item>
+    </plurals>
+
+    <plurals name="profile_address_count">
+        <item quantity="one">%d адрес</item>
+        <item quantity="few">%d адреса</item>
+        <item quantity="many">%d адресов</item>
+        <item quantity="other">%d адреса</item>
+    </plurals>
+
+    <plurals name="profile_favorites_count">
+        <item quantity="one">%d товар в избранном</item>
+        <item quantity="few">%d товара в избранном</item>
+        <item quantity="many">%d товаров в избранном</item>
+        <item quantity="other">%d товара в избранном</item>
+    </plurals>
+
+    <plurals name="profile_payments_count">
+        <item quantity="one">%d способ оплаты</item>
+        <item quantity="few">%d способа оплаты</item>
+        <item quantity="many">%d способов оплаты</item>
+        <item quantity="other">%d способа оплаты</item>
+    </plurals>
+
+    <plurals name="profile_orders_count">
+        <item quantity="one">%d заказ</item>
+        <item quantity="few">%d заказа</item>
+        <item quantity="many">%d заказов</item>
+        <item quantity="other">%d заказа</item>
+    </plurals>
+
+    <plurals name="profile_order_items_count">
+        <item quantity="one">%d товар</item>
+        <item quantity="few">%d товара</item>
+        <item quantity="many">%d товаров</item>
+        <item quantity="other">%d товаров</item>
+    </plurals>
+</resources>

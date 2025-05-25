@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="review_count">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d reviews</item>
+    </plurals>
+
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+
+    <plurals name="profile_address_count">
+        <item quantity="one">%d address</item>
+        <item quantity="other">%d addresses</item>
+    </plurals>
+
+    <plurals name="profile_favorites_count">
+        <item quantity="one">%d favorite item</item>
+        <item quantity="other">%d favorite items</item>
+    </plurals>
+
+    <plurals name="profile_payments_count">
+        <item quantity="one">%d payment method</item>
+        <item quantity="other">%d payment methods</item>
+    </plurals>
+
+    <plurals name="profile_orders_count">
+        <item quantity="one">%d order</item>
+        <item quantity="other">%d orders</item>
+    </plurals>
+
+    <plurals name="profile_order_items_count">
+        <item quantity="one">%d order item</item>
+        <item quantity="other">%d order items</item>
+    </plurals>
+</resources>

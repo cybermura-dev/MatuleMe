@@ -1,0 +1,299 @@
+<resources>
+
+    <!-- Приложение -->
+    <string name="app_name">MatuleMe</string>
+
+    <!-- Ошибки: Общие -->
+    <string name="unknown_error_occurred">Произошла неизвестная ошибка</string>
+    <string name="error_generic">Что-то пошло не так</string>
+    <string name="error_network">Проблема с сетью. Проверьте подключение</string>
+    <string name="error_timeout">Время ожидания истекло. Попробуйте снова</string>
+    <string name="error_encoding">Ошибка обработки данных</string>
+
+    <!-- Ошибки: Сервер -->
+    <string name="error_bad_request">Некорректный запрос</string>
+    <string name="error_unauthorized">Нет доступа</string>
+    <string name="error_not_found">Не найдено</string>
+    <string name="error_unknown_rest">Неизвестная ошибка сервера</string>
+    <string name="error_rest_generic">Ошибка сервера</string>
+
+    <!-- Ошибки: Валидация -->
+    <string name="error_email_empty">Почта не может быть пустой</string>
+    <string name="error_email_invalid_format">Некорректный формат почты</string>
+    <string name="error_password_empty">Пароль не может быть пустым</string>
+    <string name="error_password_too_short">Пароль должен быть не менее %d символов</string>
+    <string name="error_password_too_long">Пароль не должен превышать %d символов</string>
+    <string name="error_password_weak">Слишком простой пароль. Он должен содержать не менее %d типов символов (прописные, строчные, цифры, спецсимволы)</string>
+    <string name="error_repeat_password_verify">Пароли не совпадают</string>
+    <string name="error_policy_check">Необходимо принять политику конфиденциальности</string>
+
+    <!-- Ошибки: OTP -->
+    <string name="error_otp_code_blank">Код подтверждения не может быть пустым</string>
+    <string name="error_otp_code_too_long">Код подтверждения должен состоять из 6 цифр</string>
+    <string name="error_otp_code_invalid_format">Код подтверждения некорректен</string>
+
+    <!-- Ошибки: Установка нового пароля -->
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+    <string name="error_password_reset_failed">Password reset failed</string>
+
+    <!-- Ошибки: Платеж -->
+    <string name="error_invalid_payment_id">Неверный идентификатор платежного метода</string>
+    <string name="error_payment_card_number_empty">Номер карты не может быть пустым</string>
+    <string name="error_payment_card_holder_empty">Имя владельца карты не может быть пустым</string>
+    <string name="error_payment_expiration_date_empty">Дата окончания действия карты не может быть пустым</string>
+    <string name="error_invalid_payment_details">Некорректные платежные данные</string>
+    <string name="error_invalid_price">Неверная цена</string>
+
+    <!-- Ошибки: Заказ -->
+    <string name="error_invalid_order_id">Неверный идентификатор заказа</string>
+    <string name="error_invalid_order_item_id">Неверный идентификатор позиции заказа</string>
+    <string name="error_delivery_address_empty">Адрес доставки не может быть пустым</string>
+    <string name="error_invalid_address_id">Неверный идентификатор адреса</string>
+
+    <!-- Ошибки: Данные -->
+    <string name="error_invalid_user_id">Пользователь не найден или идентификатор недействителен</string>
+    <string name="error_invalid_item_id">Товар не найден или идентификатор недействителен</string>
+    <string name="error_invalid_category_id">Категория не найдена или идентификатор недействителен</string>
+    <string name="error_invalid_product_id">Товар не найден или идентификатор недействителен</string>
+    <string name="error_invalid_input">Неверный ввод. Проверьте данные</string>
+    <string name="error_invalid_quantity">Некорректное количество</string>
+    <string name="error_loading_product">Товар не загружен</string>
+    <string name="product_not_available">Товар недоступен</string>
+
+    <!-- Аутентификация и регистрация -->
+    <string name="login">Войти</string>
+    <string name="login_greeting">Добро пожаловать!</string>
+    <string name="login_prompt">Заполните данные</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="no_account_prompt">Нет аккаунта?</string>
+
+    <string name="register">Регистрация</string>
+    <string name="register_greeting">Регистрация</string>
+    <string name="register_prompt">Заполните данные</string>
+
+    <!-- OTP и сброс пароля -->
+    <string name="forgot_password_greeting">Сброс пароля</string>
+    <string name="forgot_password_prompt">Введите почту, чтобы получить код</string>
+    <string name="send_code">Отправить код</string>
+    <string name="reset_password">Сбросить пароль</string>
+    <string name="reset_password_greeting">Подтвердите сброс пароля</string>
+    <string name="reset_password_prompt">Введите код, отправленный на %s</string>
+    <string name="otp_verification_greeting">Подтвердите код</string>
+    <string name="otp_verification_prompt">Введите код, отправленный на %s</string>
+    <string name="input_otp">Код подтверждения</string>
+    <string name="verify">Подтвердить</string>
+    <string name="resend_otp">Отправить повторно</string>
+    <string name="resend_otp_timer">%02d:%02d</string>
+    <string name="save_new_password">Save new password</string>
+    <string name="password_reset_success">Password reset success</string>
+    <string name="write_new_password_title">Write new password</string>
+    <string name="write_new_password_prompt">Please input your new password for reset</string>
+
+    <!-- Ввод -->
+    <string name="input_email">Почта</string>
+    <string name="input_password">Пароль</string>
+    <string name="input_repeat_password">Повторите пароль</string>
+    <string name="policy_text">Я соглашаюсь на обработку персональных данных</string>
+
+    <!-- Профиль -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_address_title">Адреса</string>
+    <string name="profile_address_count">адресов</string>
+    <string name="profile_no_addresses">Адреса отсутствуют</string>
+    <string name="profile_favorites_title">Избранное</string>
+    <string name="profile_favorites_count">товаров</string>
+    <string name="profile_no_favorites">Нет избранных товаров</string>
+    <string name="profile_payments_title">Платежи</string>
+    <string name="profile_payments_count">методов</string>
+    <string name="profile_no_payments">Платежные методы не добавлены</string>
+    <string name="profile_orders_title">Заказы</string>
+    <string name="profile_no_orders">Заказы отсутствуют</string>
+    <string name="profile_logout">Выйти</string>
+    <string name="profile_placeholder_name">Пользователь</string>
+
+    <string name="profile_next_delivery_title">Ближайшая доставка</string>
+    <string name="profile_no_upcoming_deliveries">Нет ближайших доставок</string>
+    <string name="profile_create_first_order_prompt">Сделайте первый заказ</string>
+    <string name="profile_delivery_order_number">Заказ №%s</string>
+    <string name="profile_delivery_status">Статус: %s</string>
+    <string name="profile_delivery_date">Создан: %s</string>
+    <string name="profile_order_total_price">Сумма: %s</string>
+    <string name="profile_address_primary">Основной: %s</string>
+    <string name="profile_payment_primary_card">Основная: ****%s</string>
+    <string name="profile_no_info_available">Нет информации</string>
+    <string name="profile_about_app">О приложении</string>
+
+    <!-- Каталог и поиск -->
+    <string name="categories_title">Категории</string>
+    <string name="category_results_title">Результат</string>
+    <string name="search">Поиск</string>
+    <string name="cancel">Отмена</string>
+    <string name="empty_search_results_title">Упс!</string>
+    <string name="empty_search_results_message">По запросу «%1$s» ничего не найдено.\nПопробуйте изменить запрос</string>
+    <string name="empty_category_results_title">Упс!</string>
+    <string name="empty_category_results_message">В данной категории пока нет товаров.\nПопробуйте выбрать другую</string>
+
+    <!-- Корзина -->
+    <string name="cart_title">Корзина</string>
+    <string name="empty_cart">Корзина пуста</string>
+    <string name="remove_cart_item">Удалить</string>
+    <string name="cart_total">Итого: </string>
+    <string name="total_price">Сумма</string>
+    <string name="proceed_to_checkout">Оформить</string>
+    <string name="error_min_quantity_reached">Минимальное количество — 1</string>
+    <string name="error_max_quantity_reached">Максимальное количество — 100</string>
+    <string name="add_some_products">Добавьте товары, чтобы начать</string>
+
+    <!-- Отзывы и рейтинг -->
+    <string name="reviews_title">Отзывы</string>
+    <string name="no_reviews_yet">Пока нет отзывов</string>
+    <string name="no_reviews_for_filter">Нет отзывов с таким рейтингом</string>
+    <string name="view_reviews">Смотреть отзывы</string>
+    <string name="rating_format">Рейтинг: %.1f из 5</string>
+    <string name="no_ratings">Оценок нет</string>
+    <string name="all">Все</string>
+
+    <!-- Промо -->
+    <string name="promotion">Акция!</string>
+    <string name="buy_now">Купить</string>
+    <string name="add_in_cart">В корзину</string>
+    <string name="added_to_cart">В корзине</string>
+    <string name="description">Описание</string>
+    <string name="loading_product">Загрузка товара…</string>
+    <string name="price">Цена</string>
+
+    <!-- Навигация -->
+    <string name="previous">Назад</string>
+    <string name="next">Вперёд</string>
+    <string name="get_started">Начать</string>
+
+    <!-- Онбординг -->
+    <string name="welcome_greeting">Добро пожаловать</string>
+    <string name="welcome_prompt">в онлайн-магазин Matule Me!</string>
+    <string name="journey_greeting">Начнём путешествие</string>
+    <string name="journey_prompt">Умная, стильная и модная коллекция ждёт вас!</string>
+    <string name="stand_out_greeting">Выделяйтесь</string>
+    <string name="stand_out_prompt">Каждая пара — способ выразить себя. Найдите свой стиль!</string>
+    <string name="lets_begin">Начнём</string>
+    <string name="your_journey_starts_now">Ваше путешествие начинается сейчас!</string>
+
+    <!-- Адреса доставки -->
+    <string name="delivery_addresses">Ваши адреса</string>
+    <string name="empty_addresses_title">Адресов нет</string>
+    <string name="empty_addresses_message">Вы еще не добавили ни одного адреса доставки. Нажмите +, чтобы добавить.</string>
+    <string name="address_line">Адрес</string>
+    <string name="error_address_required">Адрес не может быть пустым</string>
+    <string name="address_label_optional">Метка (необязательно)</string>
+    <string name="make_default_address">Сделать адрес основным</string>
+    <string name="add_address_title">Добавление адреса</string>
+    <string name="update_address_title">Обновление адреса</string>
+    <string name="default_address">Основной</string>
+    <string name="set_as_default">Сделать основным</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="save">Сохранить</string>
+
+    <!-- Способы оплаты -->
+    <string name="payment_methods">Способы оплаты</string>
+    <string name="empty_payments_title">Способов оплаты нет</string>
+    <string name="empty_payments_message">Вы еще не добавили ни одного способа оплаты. Нажмите +, чтобы добавить.</string>
+    <string name="default_payment">Основной</string>
+    <string name="expiration_date_format">Срок до: %s</string>
+    <string name="add_payment_method_title">Добавление способа оплаты</string>
+    <string name="update_payment_method_title">Изменение способа оплаты</string>
+    <string name="expiration_date">Срок действия</string>
+    <string name="error_expiration_date_required">Поле "Срок действия" обязательно</string>
+    <string name="error_expiration_date_invalid">Некорректный срок действия (ММ/ГГ)</string>
+    <string name="error_card_number_required">Поле "Номер карты" обязательно</string>
+    <string name="error_card_number_invalid">Некорректный номер карты</string>
+    <string name="card_number">Номер карты</string>
+    <string name="cardholder_name">Имя держателя карты</string>
+    <string name="make_default_payment">Сделать основным способом оплаты</string>
+    <string name="error_cardholder_name_required">Поле "Имя держателя карты" обязательно</string>
+
+    <!-- Избранное -->
+    <string name="wishlist">Избранное</string>
+    <string name="empty_wishlist">Ваш список избранного пуст</string>
+    <string name="no_products_in_wishlist">Похоже, вы еще не добавили ни одного товара в свой список избранного.</string>
+    <string name="error_loading_wishlist">Не удалось загрузить список избранного. Пожалуйста, попробуйте позже.</string>
+
+    <!-- Информация о пользователе -->
+    <string name="select_avatar">Выбрать аватар</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="profile_edit">Редактирование профиля</string>
+
+    <!-- Оформление заказа -->
+    <string name="checkout">Оформление заказа</string>
+    <string name="your_cart">Ваша корзина</string>
+    <string name="cart_is_empty">Ваша корзина пуста</string>
+    <string name="unknown_product">Неизвестный товар</string>
+    <string name="delivery_address">Адрес доставки</string>
+    <string name="no_saved_addresses">У вас нет сохраненных адресов</string>
+    <string name="add_address">Добавить адрес</string>
+    <string name="payment_method">Способ оплаты</string>
+    <string name="no_saved_payments">У вас нет сохраненных способов оплаты</string>
+    <string name="add_payment_method">Добавить способ оплаты</string>
+    <string name="order_summary">Сводка заказа</string>
+    <string name="subtotal">Промежуточный итог</string>
+    <string name="discount">Скидка</string>
+    <string name="total">Итого</string>
+    <string name="place_order">Оформить заказ</string>
+    <string name="processing_order">Обработка заказа…</string>
+    <string name="order_placed_successfully">Заказ успешно оформлен!</string>
+    <string name="order_confirmation_message">Спасибо за ваш заказ. Вы можете отслеживать его статус в разделе Заказы.</string>
+    <string name="order_summary_title">Итог заказа</string>
+    <string name="subtotal_original">Подытог (без скидок)</string>
+    <string name="total_amount_label">Всего к оплате</string>
+    <string name="not_specified">Не заполнено</string>
+    <string name="full_name">ФИО</string>
+    <string name="email">Почта</string>
+    <string name="user_info">Данные пользователя</string>
+    <string name="select_an_address">Выберите адрес</string>
+    <string name="add_another_address">Добавить новый адрес</string>
+    <string name="change">Изменить</string>
+    <string name="add_another_payment_method">Добавить новый метод оплаты</string>
+    <string name="select_payment_method">Выберите метод оплаты</string>
+
+    <!-- Заказы -->
+    <string name="orders_title">Заказы</string>
+    <string name="order_status_new">Новый</string>
+    <string name="order_status_paid">Оплачен</string>
+    <string name="order_status_shipped">Отправлен</string>
+    <string name="order_status_completed">Завершен</string>
+    <string name="order_status_cancelled">Отменен</string>
+    <string name="order_number_format">Заказ №%s</string>
+    <string name="view_details">Детали</string>
+    <string name="no_orders_yet">У вас пока нет заказов.</string>
+    <string name="address_label">Адрес:</string>
+    <string name="order_total_label">Сумма заказа</string>
+    <string name="order_status">Статус: %s</string>
+    <string name="order_items">Товары в заказе</string>
+    <string name="product_not_found">Товар не найден</string>
+    <string name="quantity_and_price">%d шт. x %.2f ₽</string>
+    <string name="order_total_price">%.2f ₽</string>
+    <string name="pay">Оплатить</string>
+    <string name="confirm_order_received">Подтвердить получение</string>
+    <string name="cancel_order">Отменить заказ</string>
+    <string name="cannot_cancel_shipped_or_completed_order">Невозможно отменить отправленный или завершенный заказ.</string>
+    <string name="delivery_and_payment">Доставка и оплата</string>
+    <string name="payment_method_label">Способ оплаты</string>
+
+    <!-- О приложении -->
+    <string name="about_app_title">О приложении</string>
+    <string name="about_app_version_label">Версия приложения: %s</string>
+    <string name="about_app_description_label">Описание приложения:</string>
+    <string name="about_app_description_text">Добро пожаловать в Matule Me — ваш идеальный выбор для стильной и комфортной спортивной обуви! Мы предлагаем широкий ассортимент кроссовок, кед и другой обуви для спорта и повседневной жизни от ведущих брендов. Найдите свою идеальную пару, подчеркните свой стиль и наслаждайтесь каждым шагом с Matule Me.</string>
+    <string name="about_app_developer_label">Разработчик:</string>
+    <string name="about_app_developer_name">takeshikodev</string>
+
+    <!-- Разное -->
+    <string name="app_logo">Логотип приложения</string>
+    <string name="back">Назад</string>
+    <string name="toggle_password_visibility">Показать/скрыть пароль</string>
+    <string name="just_now">только что</string>
+
+</resources>

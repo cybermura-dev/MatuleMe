@@ -14,7 +14,6 @@
 - [Contributing](#contributing)
 - [Roadmap](#roadmap)
 - [License](#license)
-- [Contact](#contact)
 
 ## Overview
 

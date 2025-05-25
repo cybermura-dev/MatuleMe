@@ -17,7 +17,7 @@
 
 ## Overview
 
-**MatuleMe** is a modern Android e-commerce application built with Kotlin and Jetpack Compose. It aims to provide a smooth and intuitive shopping experience for sports footwear, featuring product browsing, cart management, a secure checkout process, robust user authentication, and order tracking.
+**MatuleMe** is a modern Android non-commerce application built with Kotlin and Jetpack Compose. It aims to provide a smooth and intuitive shopping experience for sports footwear, featuring product browsing, cart management, a secure checkout process, robust user authentication, and order tracking.
 
 The application is designed with Clean Architecture principles to ensure high testability, maintainability, and scalability. It utilizes Supabase as a backend service for authentication, database management, and storage.
 

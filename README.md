@@ -103,7 +103,7 @@ Dependencies flow inwards (Presentation -> Domain -> Data).
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/takeshikodev/MatuleMe.git
+    git clone https://github.com/cybermura-dev/MatuleMe.git
     cd MatuleMe
     ```
 2.  **Configure Supabase:**
@@ -189,4 +189,4 @@ Please adhere to the project's coding style and guidelines.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 Takeshiko 
+Copyright (c) 2025 cybermura 
